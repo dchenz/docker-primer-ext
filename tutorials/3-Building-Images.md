@@ -2,7 +2,7 @@
 
 To create a Docker image using a Dockerfile, navigate to the root directory of your project and run the build command.
 
-```
+```sh
 # The -t/--tag option is used to give your new image a name.
 docker build . -t python-demo-app
 ```
@@ -15,7 +15,7 @@ Image tags are specified after the colon of a full image name. Images with diffe
 
 The `latest` tag is used as the default tag when no tag is specified. The above build command will create an image called `python-demo-app:latest`. The following command does the same thing.
 
-```
+```sh
 docker build . -t python-demo-app:latest
 ```
 
