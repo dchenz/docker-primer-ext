@@ -55,3 +55,5 @@ RUN pip3 install -r requirements.txt
 ```
 
 If you make any edits to a Python file, Docker will reinstall dependencies during every build, regardless of whether the dependencies have changed or not. That would be very annoying...
+
+In this next tutorial, you will learn how to build a Docker image.

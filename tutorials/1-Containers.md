@@ -30,6 +30,8 @@ REPOSITORY    TAG   IMAGE ID      CREATED        SIZE
 python        3.10  7687dd13da73  2 months ago   1GB
 ```
 
+A tag is a label assigned to an image, typically representing a version (e.g. Python 3.10), and serves to distinguish it from other versions of the same project. A repository is a collection of related images.
+
 ## Running and deleting containers
 
 This command runs an interactive terminal session inside a Docker container based on the Python 3.10 image.
